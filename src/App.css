@@ -1,0 +1,728 @@
+
+*{
+   margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   
+}
+
+body{
+    font-size: 13px;
+}
+
+
+
+/* header */
+
+header{
+    background-image: url('/src/images/image-hero-mobile.jpg');
+    background-size: 100%;
+    height: 19em;
+    padding-top: 0;
+    background-repeat: no-repeat;
+}
+
+.navigation{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+   /* overflow: hidden; */
+}
+
+.navigation button{
+    width: 5%;
+}
+
+
+.navigation button img{
+    width: 100%;
+    filter: invert(99%) sepia(2%) saturate(1351%) hue-rotate(94deg) brightness(106%) contrast(96%);
+}
+
+
+.navigation nav{
+    margin: auto;
+}
+
+.navigation nav ul {
+    background-color: white;
+    width: 100%;
+    margin: auto;
+    top: 80px;
+    left: 0;
+    position: absolute;
+    text-align: center;
+}
+
+
+.desktop-nav{
+    display: none;
+}
+
+
+
+.navigation nav ul li{
+    list-style: none;
+    border: 1px solid rgb(107, 107, 107);
+     border-width: thin;    
+    line-height: 30px;
+}
+
+.navigation nav ul li a{
+  color: black;
+    text-decoration: none;
+}
+
+.navigation nav ul li a:hover{
+    color: grey;
+}
+
+.navigation button{
+    border: none;
+    background: none;
+}
+
+
+.navigation h4{
+    color: white;
+}
+
+
+
+header img{
+    display: block;
+  /*  position: fixed;
+  left: 40%;
+  top: 40%;*/
+}
+
+
+/* end of header */
+
+/*main*/
+
+main{
+ padding: 15px;
+ width: 86%;
+ height: 100%;
+ margin: auto;
+margin-top: -8%;
+}
+
+main .master-img img{
+    display: block;
+    margin: auto;
+    margin-top: -46px;
+    width: 12%;
+}
+
+.first-section{
+    background-color: whitesmoke;
+    padding: 10px;
+    margin-top: -6px;
+    border-radius: 5px;
+}
+
+.mastercraft p{
+opacity: 42%;
+}
+
+#bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 11px;
+}
+
+#bottom button{
+    border-radius: 20px;
+    border: none;
+    padding: 3px;
+    width: 34%;
+    font-size: 10px;
+    margin-block: auto;
+    height: 29px;
+    color: white;
+    background-color: rgb(60, 180, 172);;
+}
+
+
+#bottom button:hover{
+    background-color: rgb(15, 95, 90);;
+}
+
+
+#mark{
+    display: flex;
+    justify-content: space-between; 
+}
+
+#mark img{
+    width: 29%;
+}
+
+#mark p{
+margin: auto;
+}
+
+/* end of first section */
+
+/* second section */
+
+.second-section{
+    background-color: whitesmoke;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: inherit;
+    border-radius: 5px;
+}
+
+.price{
+    padding: 15px;
+}
+
+.numbers{
+    text-align: center;
+}
+
+.numbers p{
+    opacity: 28%;
+}
+
+.dash{
+   border: 0.5px solid black;
+  width: 48%;
+margin: auto;
+opacity: 10%;
+}
+
+.progress-container{
+    background-color: gray;
+    width: 100%;
+    margin: auto;
+    border-radius: 6px;
+}
+
+.progress-bar{
+ background-color: rgb(60, 180, 172);
+ width: 85%;
+ height: 10px;
+ border-radius: 6px;
+}
+
+/*end of second section*/
+
+/*third section */
+
+.third-section{
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+#words p{
+    opacity: 42%;
+}
+
+.Bamboo-stand{
+border: 1px solid black;
+padding: 15px;
+margin-top: 3%;
+}
+
+.Bamboo-stand p{
+    opacity: 42%;
+}
+
+.Black-Edition{
+    border: 1px solid black;
+    padding: 15px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.Black-Edition p{
+    opacity: 42%;
+}
+
+.Mahogany-Edition{
+    border: 1px solid black;
+    padding: 15px;
+    opacity: 40%;
+}
+
+.words h4{
+    color: rgb(51, 204, 166);;
+}
+
+.words p{
+    opacity: 32%;
+}
+
+
+.select-reward{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 11px;
+   
+}
+
+.select-reward button{
+    border-radius: 20px;
+    border: none;
+    padding: 3px;
+    width: 42%;
+    font-size: 10px;
+    margin-block: auto;
+    height: 29px;
+    color: white;
+    background-color: rgb(60, 180, 172);;
+}
+
+.select-reward button:hover{
+    background-color: rgb(15, 95, 90);;
+}
+
+.select-reward span{
+    font-size: 12px;
+    opacity: 30%;
+}
+
+#select-reward{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 11px;
+}
+
+
+#select-reward span{
+    font-size: 12px;
+    opacity: 30%;
+}
+
+#select-reward button{
+    border-radius: 20px;
+    border: none;
+    padding: 3px;
+    width: 42%;
+    font-size: 10px;
+    margin-block: auto;
+    height: 29px;
+    color: white;
+    background-color: rgb(153, 155, 155);;
+}
+
+/* Reward expansion */
+
+.reward-expansion{
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 15px;
+ width: 86%;
+ height:fit-content;
+ margin: auto;
+ box-shadow: 0 0 88px -9px ;
+ position: absolute;
+    top: 364px;
+    left: 0;
+    right: 0;
+}
+
+
+
+.back-project{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+
+.back-project button{
+border: none;
+background: none;
+}
+
+.back-project img{
+    width: 89%;
+}
+
+#support{
+    padding: 4px;
+}
+
+.no-pledge{
+    display: flex;
+}
+
+.no-pledge h3{
+    margin-left: 4%;
+}
+
+.pledge-nothing{
+    padding: 10px;
+    border: 1px solid black;
+}
+.pledge-nothing span{
+    opacity: 36%;
+}
+
+.enter-pledge{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    align-items: baseline;
+    padding: 8px;
+}
+
+.enter-pledge{
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid black;
+}
+ 
+.pledge-amount{
+    margin: auto;
+}
+
+.pledge-amount p{
+    opacity: 36%;
+}
+
+
+.input-payment{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4%;
+}
+
+.input-payment button{
+    border-radius: 20px;
+    border: none;
+    padding: 3px;
+    width: 34%;
+    font-size: 10px;
+    margin-block: auto;
+    height: 29px;
+    color: white;
+    background-color: rgb(60, 180, 172);;
+}
+
+.input-payment button:hover{
+    background-color: rgb(15, 95, 90);;
+}
+
+.payment{
+    background-color: white;
+    width: 25%;
+    padding: 6px;
+    border-radius: 20px;
+    display: flex;
+    align-items: baseline;
+}
+
+.payment input{
+   margin: auto;
+    width: 75%;
+    border: none;
+}
+
+
+
+.bamboo-pledge{
+    padding: 10px;
+    border: 1px solid black;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.bamboo-pledge span{
+    opacity: 36%;
+}
+
+.pledge-money{
+    display: flex;
+    align-items: baseline;
+}
+
+
+.pledge-money h3{
+    margin-left: 4%;
+}
+
+.pledge-money h4{
+    margin-left: 2%;
+    color: rgb(60, 180, 172);;;
+}
+
+
+.black-pledge{
+    padding: 10px;
+    border: 1px solid black;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.black-pledge span{
+    opacity: 36%;
+}
+
+.Maho-pledge{
+    padding: 10px;
+    border: 1px solid black;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-size: 12px;
+    opacity: 35%;
+}
+
+#pledge-money{
+    display: flex;
+    align-items: baseline;
+}
+
+
+#pledge-money h3{
+    margin-left: 2%;
+}
+
+
+#pledge-money h4{
+    margin-left: 2%;
+    color: rgb(60, 180, 172);
+}
+
+
+
+
+/* Thank- you page*/
+
+
+.Thank-you{
+  width: 84%;
+  background-color: whitesmoke;
+  margin: auto;
+  padding: 14px;
+  border-radius: 5px;
+  position: absolute;
+    top: 561px;
+    left: 0;
+    right: 0;
+    box-shadow: 0 0 39px -10px;
+}
+
+.btn{
+    margin-top: 4%;
+}
+
+.btn button{
+    border-radius: 20px;
+    border: none;
+    padding: 3px;
+    width: 34%;
+    font-size: 10px;
+    margin-block: auto;
+    height: 29px;
+    color: white;
+    background-color: rgb(60, 180, 172)
+}
+
+.btn button:hover{
+    background-color: rgb(15, 95, 90)
+}
+
+
+
+@media screen and (min-width: 760px) {
+    
+header{
+    background-image: url('/src/images/image-hero-desktop.jpg');
+    background-size: 100%;
+    height: 19em;
+    padding-top: 0;
+    background-repeat: no-repeat;
+}
+
+
+.navigation nav ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.navigation h4{
+    color: white;
+}
+
+
+.desktop-nav{
+    display: block;
+}
+
+.desktop-nav nav a:hover{
+    color: rgb(73, 73, 73);
+}
+
+
+.navigation #mobile{
+    display: none;
+}
+
+
+
+.navigation button{
+    display: none;
+}
+
+
+
+.navigation nav a{
+  text-decoration: none;
+  color: white;
+  margin-right: 12px;
+}
+
+
+/* Main */
+
+main{
+    padding: 18px;
+    width: 43%;
+    margin: auto;
+   margin-top: -4%;
+
+
+
+   }
+   
+.first-section{
+    border-radius: 5px;
+}
+
+.second-section{
+    background-color: whitesmoke;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: inherit;
+    border-radius: 5px;
+
+}
+
+.price{
+    display: flex;
+    margin-right: 25px;
+    justify-content: space-between;
+}
+
+
+.numbers{
+    text-align: center;
+   
+    margin: auto;
+}
+
+.dash{
+  display: none;
+ }
+ 
+.border-right{
+    border-right: 1px solid black;
+    padding: inherit;
+ 
+}
+
+ .border-left{
+border-left: 1px solid black;
+padding: inherit;
+
+ }
+
+
+ .third-section{
+    background-color: whitesmoke;
+    padding: 14px;
+    border-radius: 5px;
+
+}
+
+
+main .master-img img{
+    display: block;
+    margin: auto;
+    margin-top: -46px;
+    width: 8%;
+}
+
+/* end of main */
+
+
+/* Reward page */
+
+
+.reward-expansion{
+    background-color: whitesmoke;
+    padding: 19px;
+ width: 31%;
+ height: fit-content;
+ margin: auto;
+ border-radius: 5px;
+ position: absolute;
+    top: 364px;
+    left: 0;
+    right: 0;
+}
+
+
+
+.payment{
+    background-color: white;
+    width: 29%;
+    padding: 6px;
+    border-radius: 20px;
+    display: flex;
+    align-items: baseline;
+}
+
+.payment span{
+    margin-left: auto;
+}
+
+.payment input{
+    width: 46%;
+    border: none;
+    margin: auto;
+}
+
+
+.input-payment button{
+    border-radius: 20px;
+    border: none;
+    padding: 3px;
+    width: 42%;
+    font-size: 10px;
+    margin-block: auto;
+    height: 31px;
+    color: white;
+    background-color: rgb(60, 180, 172);;
+}
+
+/* Reward-expansion end */
+
+/* Thank-you */
+
+
+
+.Thank-you{
+    width: 26%;
+    background-color: whitesmoke;
+    margin: auto;
+    padding: 14px;
+    border-radius: 5px;
+    position: absolute;
+    top: 526px;
+    left: 0;
+    right: 0;
+    box-shadow: 0 0 39px -10px;
+  }
+
+
+}
